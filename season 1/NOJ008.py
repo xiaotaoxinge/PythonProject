@@ -1,0 +1,5 @@
+a = input()
+b = input()
+a = complex(a)
+b = complex(b)
+print(a+b, a-b, a*b, a/b, a.conjugate(), abs(a), sep=',')
